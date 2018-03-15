@@ -14,8 +14,8 @@ The status quo, `:focus`, is quite problematic:
   both aesthetically unpleasant and confusing to users
   when applied after a mouse or touch event and introduces accessibility problems.
   The latter inevitably creates considerably more of the kind of problem that the former was trying to solve.
-- Some native elements in some browsers,
-  notably `<button>` in Chrome,
+- Some native elements in most modern browsers,
+  notably `<button>` in Chrome, Edge, and Firefox,
   have a "magic" focus style which does _not_ apply
   unless focus was received via a keyboard interaction.
 
